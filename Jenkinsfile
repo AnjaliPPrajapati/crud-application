@@ -5,8 +5,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing'
-                echo "${BUILD_ID}"
-                echo "${Name}"
             }
         }
         stage('Build') {
