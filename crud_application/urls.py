@@ -20,5 +20,5 @@ from crud_application import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('add-student', views.add_student, name='load_file_data'),
+    path('add-student', views.add_student, name='add-student'),
 ]
