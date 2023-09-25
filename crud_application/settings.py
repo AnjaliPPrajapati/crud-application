@@ -87,7 +87,8 @@ DATABASES = {
         'NAME':'crud',
         'USER':'postgres',
         'PASSWORD':'sankey@123',
-        'HOST':'localhost',
+        # 'HOST':'localhost',
+        'HOST':'host.docker.internal',
         'PORT':'5432'
     }
 }
